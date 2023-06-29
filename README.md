@@ -1,65 +1,25 @@
-<p align="center">
- <a href="https://web3templates.com/?ref=nextly_github_logo">
- <img src="https://user-images.githubusercontent.com/1884712/132941531-0fdd7acf-47ca-424e-b77f-1fab2e372a37.png" alt="W3T" width="100" height="41"/>
- </a> 
- <br>
- <br>
-</p>
+# NetZer0Tracker(For IEUK Technology Work Brief)
 
-# Nextly - Landing Page Template with Next.js & Tailwind CSS
+The "NetZer0Tracker" application is a comprehensive digital solution designed to support Small and Medium-sized Enterprises (SMEs) in their journey towards achieving Net Zero carbon emissions. The web app uses Web 3.0 technologies and blockchain to provide transparency, security, and incentivize sustainability practices. It focuses on the Food and Beverage industry but can be scaled to cover various sectors.
 
-Nextly is a free landing page & marketing website template for  startups and indie projects. Its built with Next.js & TailwindCSS.
-And its completely open-source.
- 
-![image](https://user-images.githubusercontent.com/1884712/121497169-03228680-c990-11eb-975a-e77fddc43de0.png)
+## Key Features:
 
-## How to use
+### 1\. Carbon Calculator
 
-Click on the [Use Template](https://github.com/surjithctly/nextly-template/generate) button on this page to clone this respository to your github account. Or you can also clone this respository using terminal or bash. 
+This feature utilizes blockchain technology to track daily business operations accurately and quantify the business's carbon footprint. The use of blockchain ensures data immutability and provides a transparent record of a company's carbon emissions.
 
-### 1\. Clone this Repository
+### 2\. Green Tokens
 
-```bash
-git clone https://github.com/surjithctly/nextly-template.git
-```
+The app introduces a tokenization system to incentivize green practices. SMEs can earn tokens by reducing their carbon footprint and implementing sustainable practices. The tokens are managed on a blockchain platform, ensuring secure, transparent transactions.
 
-### 2\. Navigate to the directory
+### 3\. Green Ideas
 
-```
-cd nextly-template
-```
+This section of the app provides industry-specific suggestions and best practices to improve sustainability. It acts as a knowledge hub and guidance tool for SMEs to understand and implement changes towards sustainability.
 
-### 3\. Install dependencies
+### 4\. Green Marketplace
 
-```
-yarn install
-# or
-npm install
-```
+An integrated marketplace connects SMEs with eco-friendly suppliers and services. Businesses can use their earned Green Tokens in this marketplace, effectively creating an ecosystem that promotes and rewards green practices.
 
-### 5\. Run Dev Server
+### 5\. Emissions Timeline
 
-```
-yarn dev
-# or
-npm run dev
-```
-
-## Deploy with Vercel
-
-Deploy this template using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/surjithctly/nextly-template&project-name=nextly-template&repository-name=nextly-template)
-
-
-## Author
-
-Surjith S M ( [@surjithctly](https://surjithctly.in/) )
-
----
-
-[![image](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com/?utm_source=web3templates&utm_campaign=oss)
-
-
-
-
+A visual tool that tracks the SME's journey to Net Zero, sets reduction goals, and shows the progress towards those goals. It creates an easy-to-understand graphical representation of the business's impact and improvements over time.

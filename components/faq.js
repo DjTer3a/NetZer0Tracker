@@ -31,26 +31,23 @@ const Faq = () => {
       </div>
     </Container>
   );
-}
+};
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
-  },
-  {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
-  },
-  {
-    question: "What is your refund policy? ",
+    question: "Is the NetZer0Tracker application free to use?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "NetZer0Tracker follows a freemium model, offering basic features for free with advanced features available through a subscription plan.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "Can I use it for my business?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Absolutely! The NetZer0Tracker application is designed to help all types of SMEs on their journey to Net Zero carbon emissions.",
+  },
+  {
+    question: "Do you offer technical support?",
+    answer:
+      "Technical support is available for all our users. For free users, we offer limited support through our help center and community forums. Premium subscribers receive priority support with quicker response times.",
   },
 ];
 

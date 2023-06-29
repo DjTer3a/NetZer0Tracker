@@ -16,10 +16,12 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
+        <title>
+          NetZer0Tracker - Your Companion in the Journey to Net Zero
+        </title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="NetZer0Tracker is a web application built to support SMEs in their journey towards achieving Net Zero carbon emissions."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -27,32 +29,37 @@ const Home = () => {
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page">
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        pretitle="NetZer0Tracker Benefits"
+        title="Why you should join us"
+      >
+        NetZer0Tracker is a comprehensive digital solution, utilizing Web 3.0
+        technologies, for SMEs striving for sustainability. Its core features
+        such as the Carbon Calculator, Green Tokens, Green Marketplace, and
+        Emissions Timeline help businesses track and reduce their carbon
+        footprint.
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
         pretitle="Watch a video"
-        title="Learn how to fullfil your needs">
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+        title="Learn how to fulfill your sustainability goals"
+      >
+        Explore a comprehensive demo of our product in this section. Understand
+        how to utilize all features of the NetZer0Tracker app to maximize your
+        journey towards achieving Net Zero carbon emissions. Remember,
+        businesses leveraging our app report improved sustainability practices.
       </SectionTitle>
       <Video />
-      <SectionTitle
-        pretitle="Testimonials"
-        title="Here's what our customers said">
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+      <SectionTitle pretitle="Testimonials" title="Here's what our users said">
+        Hear from the diverse SMEs that have benefited from the NetZer0Tracker
+        application. Their journey towards sustainability is inspiring and
+        highlights the practical benefits of our web application.
       </SectionTitle>
       <Testimonials />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+        Here we answer the common questions about our app and its various
+        features. This section will provide you with additional information
+        about the NetZer0Tracker and its use cases.
       </SectionTitle>
       <Faq />
       <Cta />
@@ -60,6 +67,6 @@ const Home = () => {
       <PopupWidget />
     </>
   );
-}
+};
 
 export default Home;
